@@ -21,13 +21,13 @@
 
 					{% if site.instagram %}
 					<li>
-						<a href="https://instagram.com/{{ site.instagram }}"></a>
+						<a href="https://instagram.com/{{ site.instagram }}"><i class="fab fa-instagram" aria-hidden=true></i></a>
 					</li>
 					{% endif %}
 
 					{% if site.twitter_username %}
 					<li>
-						{% include icon-twitter.html username=site.twitter_username %}
+						<a href="https://twitter.com/{{ include.username }}"><i class="fab fa-twitter"></i>
 					</li>
 					{% endif %}
 				</ul>
