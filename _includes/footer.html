@@ -15,13 +15,13 @@
 				<ul class="social-media-list">
 					{% if site.github %}
 					<li>
-						<a href="https://github.com/{{ site.github }}"><><></a>
+						<a href="https://github.com/{{ site.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
 					</li>
 					{% endif %}
 
-					{% if site.instagram_username %}
+					{% if site.instagram %}
 					<li>
-						{% include icon-instagram.html username=site.instagram_username %}
+						<a href="https://instagram.com/{{ site.instagram }}"></a>
 					</li>
 					{% endif %}
 
