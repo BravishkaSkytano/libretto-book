@@ -5,7 +5,7 @@ layout: default
 <div class="home">
 
 	<ul class="post-list">
-		{% for post in site.posts %}
+		{% for post in site.posts reversed %}
 		<li>
 			<article>
 				<header class="post-header">
@@ -19,7 +19,7 @@ layout: default
 				</header>
 
 				<div class="entry-content">
-					{{ post.content }}
+					{{ post.excerpt }}
 				</div>
 			</article>
 		</li>
