@@ -7,7 +7,7 @@ layout: default
 	<h1 class="page-heading">Table of Contents</h1>
 
 	<ul class="post-list">
-		{% for post in site.posts %}
+		{% for post in site.posts reverse %}
 		<li>
 			<span class="post-meta" style="font-style: italic;">• {{ post.date | date: "%B %-d, %Y" }} •</span>
 
