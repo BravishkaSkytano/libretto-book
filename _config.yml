@@ -25,5 +25,20 @@ github_username:    jekyll
 instagram_username: jekyllrb
 twitter_username:   jekyllrb
 
+# Frontmatter Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "_posts" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      
 # Build settings
 markdown: kramdown
