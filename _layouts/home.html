@@ -19,7 +19,7 @@ layout: default
 				</header>
 
 				<div class="entry-content">
-					{{ post.content | truncatewords:75 }}... <a href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+					{{ post.content | strip_html | truncatewords:75 }}... <a href="{{ post.url | prepend: site.baseurl }}">Read More</a>
 				</div>
 			</article>
 		</li>
