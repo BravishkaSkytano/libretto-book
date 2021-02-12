@@ -9,6 +9,8 @@ To use it, go ahead and click the "Use Template" button!
 
 ![Theme preview](http://i.imgur.com/2ZCmoKo.png)
 
+[See it in action!](https://aspiring-writer.github.io/libretto-book)
+
 ## Upcoming Changes
 - [] Make fonts customizable
 - [] Add themes
