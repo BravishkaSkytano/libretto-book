@@ -9,10 +9,7 @@
 				<ul class="contact-list">
 					<li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
 				</ul>
-			</div>
-
-			<div class="footer-col footer-col-2">
-				<ul class="social-media-list">
+				<div class="social-media-list">
 					{% if site.github %}
 					<a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>
 					{% endif %}
@@ -25,10 +22,10 @@
 					{% if site.linkedin %}
 					<a href="https//linkedin.com/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
 					{% endif %}
-				</ul>
+				</div>
 			</div>
 
-			<div class="footer-col footer-col-3">
+			<div class="footer-col footer-col-2">
 				<p>{{ site.description }}</p>
 			</div>
 		</div>
