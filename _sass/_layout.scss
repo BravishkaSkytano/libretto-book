@@ -44,10 +44,6 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
-
-    .username {
-        font-size: 80%;
-    }
 }
 
 .footer-col-wrapper {
@@ -196,14 +192,14 @@
         }
     }
 
-    .next {
+    .previous {
         span:before {
             border-left: 0;
             border-right-color: $grey-color;
         }
     }
 
-    .previous {
+    .next {
         text-align: right;
 
         span:after {
