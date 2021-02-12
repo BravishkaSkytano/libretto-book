@@ -17,6 +17,7 @@
 #remote_theme: Aspiring-Writer/libretto-book
 
 title: Your awesome title
+author: Your name
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new book here. You can edit this
