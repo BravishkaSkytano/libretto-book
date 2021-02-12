@@ -6,9 +6,10 @@
 
 		<div class="footer-col-wrapper">
 			<div class="footer-col footer-col-1">
-				<ul class="contact-list">
-					<li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-				</ul>
+				<div class="contact-list">
+			          <p>Written by {{ site.author }}</p>
+                                  <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+				</div>
 				<div class="social-media-list">
 					{% if site.github %}
 					<a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>
