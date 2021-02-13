@@ -14,8 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#remote_theme: Aspiring-Writer/libretto-book
-
 title: Your awesome title
 author: Your name
 email: your-email@domain.com
@@ -46,8 +44,4 @@ defaults:
       layout: "post"
       
 # Build settings
-markdown: kramdown
-
-#plugins:
-#  - jekyll-remote-theme
-  
+markdown: kramdown  
