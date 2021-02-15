@@ -3,23 +3,24 @@ layout: default
 ---
 
 <div class="home">
+	<img src="{{ site.cover }}" alt="cover">
         {{ content }}
 	<ul class="post-list">
-		{% for post in site.posts reversed %}
+		{% for chapter in site.chapters %}
 		<li>
 			<article>
 				<header class="post-header">
 					<div>
-						<span>Posted on </span><span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+						<span>Posted on </span><span class="post-meta">{{ chapter.date | date: "%B %-d, %Y" }}</span>
 					</div>
 
 					<h2>
-						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+						<a class="post-link" href="{{ chapter.url | prepend: site.baseurl }}">{{ chapter.title }}</a>
 					</h2>
 				</header>
 
 				<div class="entry-content">
-					{{ post.content | strip_html | truncatewords:75 }}... <a href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+					{{ chapter.content | strip_html | truncatewords:50 }}... <a href="{{ chapter.url | prepend: site.baseurl }}">Read More</a>
 				</div>
 			</article>
 		</li>
