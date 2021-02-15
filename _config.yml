@@ -14,27 +14,33 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-author: Your name
+# Book Metadata
+title: Your book title
+author: Your name or pen name
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new book here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-cover: "" # this can be the path to a file or a url to an external image
+cover: "" # this is the cover of your book, it will appear on your homepage. It can be the path to a file or a url to an external image
+
+# Site Config
 baseurl: "/libretto-book" # the subpath of your site, e.g. /blog
 url: "https://aspiring-writer.github.io" # the base hostname & protocol for your site
+
+# Social
 github:    jekyll
 instagram: jekyllrb
 twitter:   jekyllrb
 linkedin: jekyllrb
 
+# Collections (don't change!)
 collections:
   chapters:
     output: true
     permalink: /chapters/:title
     
-# Frontmatter Defaults
+# Frontmatter Defaults (don't change!)
 defaults:
   -
     scope:
