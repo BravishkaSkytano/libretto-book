@@ -28,6 +28,11 @@ instagram: jekyllrb
 twitter:   jekyllrb
 linkedin: jekyllrb
 
+collections:
+  chapters:
+    output: true
+    permalink: /chapters/:title
+    
 # Frontmatter Defaults
 defaults:
   -
@@ -38,10 +43,10 @@ defaults:
       layout: "default"
   -
     scope:
-      path: "_posts" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      path: ""
+      type: "chapters"
     values:
-      layout: "post"
+      layout: "chapter"
       
 # Build settings
 markdown: kramdown  
