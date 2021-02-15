@@ -7,11 +7,11 @@ title: Table of Contents
 	<h1 class="page-heading">{{ title }}</h1>
 
 	<ul class="post-list">
-		{% for post in site.posts reversed %}
+		{% for chapter in site.chapters %}
 		<li>
-			<span class="post-meta" style="font-style: italic;">• {{ post.date | date: "%B %-d, %Y" }} •</span>
+			<span class="post-meta" style="font-style: italic;">• {{ chapter.date | date: "%B %-d, %Y" }} •</span>
 
-			<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h3>
+			<h3><a href="{{ chapter.url | prepend: site.baseurl }}">{{ chapter.title | escape }}</a></h3>
 		</li>
 		{% endfor %}
 	</ul>
