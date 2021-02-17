@@ -37,14 +37,14 @@ baseurl: "/libretto-book" # the subpath of your site, e.g. /blog
 url: "https://aspiring-writer.github.io" # the base hostname & protocol for your site
 
 fonts:
-  - family: "Libre Baskerville", Baskerville, "Book Antiqua", Georgia, Times, serif
-  - size: 17px
-  - weight: 400
-  - height: 2
-  - brand_color: 787065
-  - background_color: f2f1ed
-  - text_color: 363431
-  - title_color: 943526
+  family: "Libre Baskerville", Baskerville, "Book Antiqua", Georgia, Times, serif
+  size: 17px
+  weight: 400
+  height: 2
+  brand_color: 787065
+  background_color: f2f1ed
+  text_color: 363431
+  title_color: 943526
   -
     first_letter:
       color: b7b1a9
