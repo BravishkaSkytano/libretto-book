@@ -20,6 +20,19 @@ $font-path-file-name: {{ site.baseurl }}/assets/fonts/$font-name/$font-name;
 
 
 // Our variables
+$base-font-family: "Libre Baskerville", Baskerville, "Book Antiqua", Georgia, Times, serif;
+$base-font-size:   17px;
+$base-font-weight: 400;
+$base-line-height: 2;
+
+$small-font-size:  $base-font-size * 0.875;
+
+$spacing-unit:     30px;
+
+$brand-color:      #787065;
+$background-color: #f2f1ed;
+$text-color:       #363431;
+$title-color:      #943526;
 
 $grey-color:       #a09a92;
 $grey-color-light: lighten($grey-color, 30%);
@@ -52,6 +65,5 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting",
-        "custom"
+        "syntax-highlighting"
 ;
