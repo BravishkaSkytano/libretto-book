@@ -36,8 +36,8 @@ linkedin: jekyllrb
 baseurl: "/libretto-book" # the subpath of your site, e.g. /blog
 url: "https://aspiring-writer.github.io" # the base hostname & protocol for your site
 
-fonts:
-  family: 
+fonts: 
+  family:
   size: 17px
   weight: 400
   height: 2
