@@ -26,23 +26,37 @@ cover: "" # this is the cover of your book, it will appear on your homepage. It 
 start: February 12, 2020 # The date you started writing this book, it can be exact, a month and year, or just a year.
 end: Still updating! # The date you finished
 
-# Site Config
-baseurl: "/libretto-book" # the subpath of your site, e.g. /blog
-url: "https://aspiring-writer.github.io" # the base hostname & protocol for your site
-
 # Social
 github:    jekyll
 instagram: jekyllrb
 twitter:   jekyllrb
 linkedin: jekyllrb
 
-# Collections (don't change!)
+# Site Config
+baseurl: "/libretto-book" # the subpath of your site, e.g. /blog
+url: "https://aspiring-writer.github.io" # the base hostname & protocol for your site
+
+fonts:
+  -
+    first_letter:
+      color: b7b1a9
+      family: Playfair Display
+      size: 121px
+      style: normal
+      weight: 700
+      height: 70px
+  -
+    first_line:
+      color: 787065
+      Playfair Display SC
+
+# Don't edit anything under this line!
+
 collections:
   chapters:
     output: true
     permalink: /chapters/:title
     
-# Frontmatter Defaults (don't change!)
 defaults:
   -
     scope:
