@@ -13,10 +13,6 @@
 }
 
 .site-title {
-    font-family: "Playfair Display";
-    font-size: 32px;
-    font-weight: 300;
-    line-height: 56px;
     margin-bottom: 0;
 
     &,
@@ -113,8 +109,6 @@
 
 .post-link {
     display: block;
-    font-family: "Playfair Display";
-    font-size: 44px;
 
     @include media-query($on-palm) {
         font-size: 1.1em;
@@ -132,10 +126,6 @@
 
 .post-title {
     color: $grey-color;
-    font-family: "Playfair Display";
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
 
     @include media-query($on-laptop) {
         font-size: 36px;
