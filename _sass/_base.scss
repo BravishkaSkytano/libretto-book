@@ -58,10 +58,10 @@ article {
         }
 
         &:first-letter {
-            color: #b7b1a9;
+            color: {{ site.fonts.first_letter.color }};
             display: inline-block;
             float: left;
-            font-family: "Playfair Display";
+            font-family: "{{ site.fonts.first_letter.family }}";
             font-size: 121px;
             font-style: normal;
             font-weight: 700;
