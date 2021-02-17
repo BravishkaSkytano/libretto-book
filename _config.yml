@@ -45,36 +45,31 @@ fonts:
   background_color: f2f1ed
   text_color: 363431
   title_color: 943526
-  -
-    first_letter:
-      color: b7b1a9
-      family: Playfair Display
-      size: 121px
-      style: normal
-      weight: 700
-      height: 70px
-  -
-    first_line:
-      color: 787065
-      family: Playfair Display SC
-      size: 1em
-      style: normal
-      weight: bold
-  -
-    site_title:
-      family: Playfair Display
-      size: 32px
-      weight: 300
-      height: 56px
-  -
-    post_title:
-      family: Playfair Display
-      size: 42px
-      height: 1
-  -
-    toc:
-      family: Playfair Display
-      size: 44px
+  first_letter:
+    color: b7b1a9
+    family: Playfair Display
+    size: 121px
+    style: normal
+    weight: 700
+    height: 70px
+  first_line:
+    color: 787065
+    family: Playfair Display SC
+    size: 1em
+    style: normal
+    weight: bold
+  site_title:
+    family: Playfair Display
+    size: 32px
+    weight: 300
+    height: 56px
+  post_title:
+    family: Playfair Display
+    size: 42px
+    height: 1
+  toc:
+    family: Playfair Display
+    size: 44px
 
 # Don't edit anything under this line!
 
