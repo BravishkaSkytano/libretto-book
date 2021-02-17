@@ -43,7 +43,6 @@ ul, ol, dl, figure,
  * Articles
  */
 article {
-    background: #faf9f5;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
     margin-bottom: $spacing-unit;
     padding: 3em 3em 1em;
@@ -58,29 +57,12 @@ article {
         }
 
         &:first-letter {
-            color: {{ site.fonts.first_letter.color }};
-            display: inline-block;
-            float: left;
-            font-family: "{{ site.fonts.first_letter.family }}";
-            font-size: 121px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 70px;
             margin: 6px 10px 0 -5px;
 
             @include media-query($on-palm) {
                 font-size: 70px;
                 line-height: 30px;
             }
-        }
-
-        &:first-line {
-            color: #787065;
-            font-family: "Playfair Display SC";
-            font-size: 1em;
-            font-style: normal !important;
-            font-weight: bold;
-            letter-spacing: 2px;
         }
     }
 }
