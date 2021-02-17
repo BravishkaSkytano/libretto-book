@@ -36,44 +36,8 @@ linkedin: jekyllrb
 baseurl: "/libretto-book" # the subpath of your site, e.g. /blog
 url: "https://aspiring-writer.github.io" # the base hostname & protocol for your site
 
-#The fonts can be changed here! Wrap special characters (eg. #, "", '', etc.) in quotes
-fonts: 
-  family: ""Libre Baskerville", Baskerville, "Book Antique", Georgia, Times, serif"
-  size: 17px
-  weight: 400
-  height: 2
-  brand_color: "#787065"
-  background_color: "#f2f1ed"
-  text_color: "#363431"
-  title_color: "#943526"
-  first_letter:
-    color: "#b7b1a9"
-    family: Playfair Display
-    size: 121px
-    style: normal
-    weight: 700
-    height: 70px
-  first_line:
-    color: "#787065"
-    family: Playfair Display SC
-    size: 1em
-    style: normal
-    weight: bold
-  site_title:
-    family: Playfair Display
-    size: 32px
-    weight: 300
-    height: 56px
-  post_title:
-    family: Playfair Display
-    size: 42px
-    height: 1
-  toc:
-    family: Playfair Display
-    size: 44px
 
 # Don't edit anything under this line!
-
 collections:
   chapters:
     output: true
