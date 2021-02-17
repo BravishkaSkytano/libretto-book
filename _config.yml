@@ -37,7 +37,8 @@ baseurl: "/libretto-book" # the subpath of your site, e.g. /blog
 url: "https://aspiring-writer.github.io" # the base hostname & protocol for your site
 
 fonts:
-  -
+  - base_font_family: "Libre Baskerville", Baskerville, "Book Antiqua", Georgia, Times, serif
+  - 17
     first_letter:
       color: b7b1a9
       family: Playfair Display
@@ -48,7 +49,25 @@ fonts:
   -
     first_line:
       color: 787065
-      Playfair Display SC
+      family: Playfair Display SC
+      size: 1em
+      style: normal
+      weight: bold
+  -
+    site_title:
+      family: Playfair Display
+      size: 32px
+      weight: 300
+      height: 56px
+  -
+    post_title:
+      family: Playfair Display
+      size: 42px
+      height: 1
+  -
+    toc:
+      family: Playfair Display
+      size: 44px
 
 # Don't edit anything under this line!
 
