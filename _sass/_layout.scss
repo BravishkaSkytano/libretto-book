@@ -211,10 +211,6 @@
     span {
         color: $brand-color;
         display: block;
-        font-family: Montserrat;
-        font-size: 0.75rem;
-        font-style: normal;
-        letter-spacing: 1px;
         text-transform: uppercase;
     }
 
@@ -233,8 +229,6 @@
     h1 {
         color: $brand-color;
         display: block;
-        font-family: "Playfair Display";
-        font-size: 44px;
         text-align: center;
 
         @include media-query($on-laptop) {
