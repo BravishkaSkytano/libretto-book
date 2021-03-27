@@ -61,7 +61,7 @@ defaults:
 markdown: kramdown  
 
 feed:
-  colletions:
+  collections:
     - chapters
 
 plugins:
