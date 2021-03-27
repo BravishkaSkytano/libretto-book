@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home">
-	<p><img src="{{ site.cover }}" alt="cover" style="text-align: center;"></p>
+	<img src="{{ site.cover }}" alt="cover" class="responsive-img">
 	{{ content }}
 	<ul class="post-list">
 		{% for chapter in site.chapters %}
@@ -23,6 +23,6 @@ layout: default
 		{% endfor %}
 	</ul>
 
-	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<p class="rss-subscribe">subscribe <a href="{{ "/feed/chapters.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

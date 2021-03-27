@@ -5,7 +5,7 @@ I've changed the design a bit to make this theme more suitable for books, i.e. r
 To use it, go ahead and click the "Use Template" button!
 
 ## Preview
-![Theme preview]()
+![Theme preview](assets/preview.jpg)
 
 [See it in action!](https://aspiring-writer.github.io/libretto-book)
 

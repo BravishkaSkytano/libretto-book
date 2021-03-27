@@ -41,7 +41,7 @@ url: "https://aspiring-writer.github.io" # the base hostname & protocol for your
 collections:
   chapters:
     output: true
-    permalink: /chapters/:title
+    permalink: /:collection/:title.html
     
 defaults:
   -
@@ -62,8 +62,7 @@ markdown: kramdown
 
 feed:
   colletions:
-    chapters:
-      path: "/feed.xml"
+    - chapters
 
 plugins:
   - jekyll-feed
