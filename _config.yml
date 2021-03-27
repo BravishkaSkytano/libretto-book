@@ -59,3 +59,11 @@ defaults:
       
 # Build settings
 markdown: kramdown  
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

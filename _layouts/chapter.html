@@ -12,22 +12,25 @@ layout: default
 	</div>
 </article>
 
+{% assign site.chapters = chapters %}
+
+{% for chapter in chapters %}
 <div id="post-nav">
-	<div class="previous">
-		{% if page.previous.url %}
-		<a href="{{ site.baseurl }}{{ page.previous.url }}">
-			<span>Previous Chapter</span>
-			{{ page.previous.title }}
-		</a>
-		{% endif %}
-	</div>
-	
-	<div class="next">
-		{% if page.next.url %}
-		<a href="{{ site.baseurl }}{{ page.next.url }}">
-			<span>Next Chapter</span>
-			{{ page.next.title }}
-		</a>
-		{% endif %}
-	</div>
+    <div class="next">
+        {% if chapter.previous.url %}
+        <a href="{{ site.baseurl }}{{ chapter.previous.url }}">
+            <span>Previous Chapter</span>
+            {{ chapter.previous.title }}
+        </a>
+        {% endif %}	
+    </div>
+        <div class="previous">
+        {% if chapter.next.url %}
+        <a href="{{ site.baseurl }}{{ chapter.next.url }}">
+            <span>Next Chapter</span>
+            {{ chapter.next.title }}
+        </a>
+        {% endif %}	
+    </div>
 </div>
+{% endfor %}
