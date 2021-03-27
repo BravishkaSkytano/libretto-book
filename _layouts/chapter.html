@@ -12,12 +12,9 @@ layout: default
 	</div>
 </article>
 
-{% assign site.chapters = chapters %}
-
-{% for chapter in chapters %}
 <div id="post-nav">
     <div class="next">
-        {% if page.previous.url %}
+        {% if page.previous %}
         <a href="{{ site.baseurl }}{{ page.previous.url }}">
             <span>Previous Chapter</span>
             {{ page.previous.title }}
@@ -25,7 +22,7 @@ layout: default
         {% endif %}	
     </div>
         <div class="previous">
-        {% if page.next.url %}
+        {% if page.next %}
         <a href="{{ site.baseurl }}{{ page.next.url }}">
             <span>Next Chapter</span>
             {{ page.next.title }}
@@ -33,4 +30,3 @@ layout: default
         {% endif %}	
     </div>
 </div>
-{% endfor %}

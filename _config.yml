@@ -60,6 +60,11 @@ defaults:
 # Build settings
 markdown: kramdown  
 
+feed:
+  colletions:
+    chapters:
+      path: "/feed.xml"
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
