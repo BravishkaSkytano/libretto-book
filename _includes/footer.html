@@ -8,18 +8,19 @@
 			<div class="footer-col footer-col-1">
 				<div class="contact-list">
 					<p>Written by {{ site.author }}</p>
-					<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 					<p>Started: {{ site.start }}</p>
 					<p>Finished: {{ site.end }}</p>
 				</div>
+			</div>
+			<div class="footer-col footer-col-1">
 				<div class="social-media-list">
+					{% if site.email %}<a href="mailto:{{ site.email }}"><i class="fa fa-envelope">{{ site.email }}</i></a>{% endif %}
 					{% if site.github %}<a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>{% endif %}
 					{% if site.instagram %}<a href="https://instagram.com/{{ site.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}
 					{% if site.twitter %}<a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a>{% endif %}
 					{% if site.linkedin %}<a href="https//linkedin.com/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>{% endif %}
 				</div>
 			</div>
-
 			<div class="footer-col">
 				<p>{{ site.description }}</p>
 			</div>
