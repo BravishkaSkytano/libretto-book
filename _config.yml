@@ -33,11 +33,11 @@ twitter:   jekyllrb
 linkedin: jekyllrb
 
 # Site Config
-baseurl: "/libretto-book" # the subpath of your site, e.g. /blog
-url: "https://aspiring-writer.github.io" # the base hostname & protocol for your site
+baseurl: "/jekyll-theme-libretto-book" # the subpath of your site, e.g. /blog
+url: "https://bravishkaskytano.github.io" # the base hostname & protocol for your site
 
 
-# Don't edit anything under this line!
+# Don't edit anything under this line unless you fully understand how the theme itself works!
 collections:
   chapters:
     output: true
